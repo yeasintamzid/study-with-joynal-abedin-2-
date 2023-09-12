@@ -1,0 +1,106 @@
+*{
+ color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+box-sizing: border-box;
+}
+.logo{
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+     
+    
+    
+   
+}
+.background{
+    background-color: black;
+     
+    height:    500px;
+    clip-path: polygon(0 0,100% 0, 100% 100%, 70% 80%, 0 100%);
+}
+#header{ 
+  
+    display: flex;
+    justify-content: space-between;
+     align-items: baseline;
+
+}
+span{ 
+    color: red;
+}
+ 
+ 
+ 
+.nav-manu li{
+    list-style: none ;
+    display:inline-block;
+}
+.nav-manu li a{
+    text-decoration: none;
+    align-items: flex-start;
+    margin-right: 10px;
+    transition:all .3s ease;
+    padding: 10px;
+
+}
+.nav-manu li a:hover{
+    background-color: rgb(191, 20, 20);
+
+}
+button{
+    border: none;
+    border-radius: 15px;
+    background-color: red;
+    padding: 5 px;
+    font-weight: bold ;
+    font-size: large;
+    transition:all .3s ease;
+}
+button:hover{
+    background-color: transparent;
+    
+    color:red;
+}
+ 
+ .hero .left img{
+    width: 400px;
+    height: 400px;
+   align-items:  center;
+ } 
+
+ .hero{
+    display: flex;
+     
+    justify-content: center;
+     
+ }
+  h6{
+  border:  1px solid white;
+border-radius: 5px;
+color: red;
+  margin-bottom: 0px;
+ }
+   .continer{
+    display: flex;
+justify-content: center;
+}
+  
+   
+ 
+div img{
+    margin-top:4px;
+ padding-top:30px;
+ padding-right: 40px;
+}
+ 
+    
+    
+   
+    h2,h4,p{ 
+         
+    color: black;
+ }
+  .continer div p{
+    border: 1px solid red;
+  }
